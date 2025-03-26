@@ -44,6 +44,7 @@ vercel
 ```
 
 ## 📂 Project Structure 
+```
 q-day-countdown/
 │── index.html
 │── style.css
@@ -52,6 +53,7 @@ q-day-countdown/
 │   ├── desktop.png
 │   └── mobile.png
 └── README.md
+```
 
 ## 🎨 Customization Guide
 
