@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNTDOWN TO Q-DAY: APRIL 14, 2030</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>COUNTDOWN TO Q-DAY</h1>
+        <h2>April 14, 2030 – The Day Quantum Computers Break RSA Encryption</h2>
+      </header>
 
+      <div class="countdown-container">
+        <div class="countdown">
+          <div class="time-block">
+            <span class="number" id="days">00</span>
+            <span class="label">DAYS</span>
+          </div>
+          <div class="time-block">
+            <span class="number" id="hours">00</span>
+            <span class="label">HOURS</span>
+          </div>
+          <div class="time-block">
+            <span class="number" id="minutes">00</span>
+            <span class="label">MINUTES</span>
+          </div>
+          <div class="time-block">
+            <span class="number" id="seconds">00</span>
+            <span class="label">SECONDS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <div class="info-card">
+          <h3>WHAT IS Q-DAY?</h3>
+          <p>
+            The projected date when quantum computers will become powerful
+            enough to break RSA-2048 encryption, potentially compromising most
+            modern digital security systems.
+          </p>
+        </div>
+        <div class="threat-meter">
+          <div class="meter-label">QUANTUM THREAT LEVEL</div>
+          <div class="meter">
+            <div class="progress" id="threat-level"></div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Based on NIST predictions and quantum computing projections</p>
+        <div class="social-share">
+          <button id="share-btn">SHARE COUNTDOWN</button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
