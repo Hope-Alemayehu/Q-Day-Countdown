@@ -1,73 +1,74 @@
 # 🚀 Q-Day Countdown
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/your-username/q-day-countdown)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Now-green?style=for-the-badge)](https://q-day-countdown.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Hope-Alemayehu/q-day-countdown)
 
-A sleek, responsive countdown to April 14, 2030 - the projected date when quantum computers may break RSA-2048 encryption.
+A responsive countdown to April 14, 2030 - when quantum computers may break RSA encryption.
 
-![Screenshot](https://i.imgur.com/placeholder.png) *(Replace with actual screenshot)*
+## 🌟 Live Deployment
+➡️ **[https://q-day-countdown.vercel.app](https://q-day-countdown.vercel.app)**
+
+## 📸 Screenshots
+
+| Desktop | Mobile |
+|---------|--------|
+| <img src="screenshots/desktop.png" width="400"> | <img src="screenshots/mobile.png" width="200"> |
 
 ## ✨ Features
 
-- **Precision Countdown**: Days, hours, minutes, and seconds until Q-Day
-- **Quantum Threat Meter**: Visual progress indicator
-- **Mobile-First Design**: Fully responsive on all devices
-- **Dark Mode**: Eye-friendly futuristic interface
-- **Social Sharing**: Easy share button for social media
+✔️ **Live Countdown**: Days, hours, minutes, seconds  
+✔️ **Threat Level Meter**: Visual progress indicator  
+✔️ **Fully Responsive**: Mobile-optimized design  
+✔️ **Dark Theme**: Easy on the eyes  
+✔️ **Shareable**: One-click social sharing  
 
-## 🛠 Technologies
+## 🛠 Tech Stack
 
-- **Frontend**: Pure HTML5, CSS3, JavaScript
-- **Fonts**: Google Fonts (Orbitron, Roboto)
-- **Hosting**: Vercel (Static Site)
-- **Animation**: CSS-only effects
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-## 🚀 Deployment
+## 🚀 Quick Deploy
 
-### Option 1: One-Click Deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/your-username/q-day-countdown)
+```bash
+# Clone repository
+git clone https://github.com/Hope-Alemayehu/q-day-countdown.git
+cd q-day-countdown
+```
 
-### Option 2: Manual Deployment
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/q-day-countdown.git
-Deploy to Vercel:
-
-bash
-Copy
+```
+# Deploy to Vercel
 npm install -g vercel
 vercel
-📂 Project Structure
-Copy
-q-day-countdown/
-├── index.html          # Main HTML file
-├── style.css           # All styles
-├── script.js           # Countdown logic
-├── README.md           # This file
-└── vercel.json         # Deployment config (optional)
-🎨 Customization
-To modify the target date:
+```
 
-javascript
-Copy
-// In script.js
-const qDay = new Date(Date.UTC(2030, 3, 14)); // April 14, 2030
-To change colors:
+## 📂 Project Structure 
 
-css
-Copy
-/* In style.css */
+## 🎨 Customization Guide
+
+### Change Target Date:
+
+```javascript
+// script.js
+const qDay = new Date(Date.UTC(2030, 3, 14)); // Year, Month-1, Day
+``` 
+
+### Update Colors:
+```css
+/* style.css */
 :root {
   --primary-color: #0f0c29;
   --secondary-color: #302b63;
-  --accent-color: #4fc3f7;
+  --accent-color: #4fc3f7; /* Neon blue */
 }
-🌐 Live Demo
-View Live on Vercel
-
-🤝 Contributing
-Pull requests welcome! For major changes, please open an issue first.
+```
+## 🤝 How to Contribute
+1. Fork the repository
+2. Create a new branch (git checkout -b improve-feature)
+3. Commit changes (git commit -am 'Add amazing feature')
+4. Push to branch (git push origin improve-feature)
+5. Create a Pull Request
 
 📜 License
-MIT
-
-Disclaimer: Q-Day projection based on NIST reports and quantum computing estimates. Date is speculative.
+MIT © Hope-Alemayehu
